@@ -1,47 +1,52 @@
 /*
 Estilos index.html*/
   .center {text-align: center;}
-.p1 { font-size: 50px;}
- #p1{ font-size: 10px;}
+
 
 .container {
 display: flex;
 flex-flow: row ;
 justify-content : center;
 align-items : center;
+text-align: justify;
+margin: 10px;
 
 }
+
+/*menu*/
 #menu li {
 display: inline;
-padding: 20px;
+padding: 50px;
 }
 #menu li a{
     text-decoration: none;
     color: lightcoral;
 }
-#menu li a:hover{
-color: lightpink;
 
-}
+
+/*Footer*/
 .p-30 {
-
-    padding: 30px;
+    padding: 10px;
 }
 .br-50 {
 
-    border-radius: 50%;
+    border-radius: 10%;
 }
-#classe1{
 
-    color: lightcoral;
-}
 
 .tm-social {
-    width:  50px;
-    height:  50px;
+ width:  50px;
+  height:  50px;
+ padding: 10px;  /*espaço entre img*/ 
 }
-.mb-50 {
+
+
+.mb-50 {   /*Margem*/
  
     margin-bottom: 50px;
+ 
+}
 
+.ml-50 { 
+    margin-left: 50px;
 }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conte comigo.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <ul id="menu">
+        <li> 
+            <a href="index.html" > Home </a>
+         </li>
+         <li> 
+            <a href="Contato.html" > Contato </a>
+         </li>
+</ul>  
+
+    <h1 class = "center" > Entre em contato comigo...</h1>
+
+    <div class= "container mb-50">
+
+<div>
+<form >
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" onkeyup='validaNome()' > 
+    <div id="txtNome"> </div>
+    <br>
+   
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" onkeyup=" validaEmail()" >
+    <div id = "txtEmail"></div>
+    <br>
+
+    <label for="assunto">Assunto:</label><br> 
+    <textarea name="assunto" id="assunto"  cols=" 60 " rows="5 " onkeyup="validaAssunto()"></textarea>
+    <div id = 'txtAssunto'></div>
+    <br>
+    
+    <button onclick="enviar()">Enviar</button>
+    </form>
+</div>
+
+<div class="ml-50">
+   
+<p> Av. Paulista, 2000</p>
+<p>Sao paulo</p>
+<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2654244545397!2d-46.
+66114738502233!3d-23.558908884684016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd06feea
+05%3A0x34166339e4cc57c6!2sUAM%20Campus%20Paulista%201!5e0!3m2!1spt-BR!2sbr!4v1631805795798!5m2!1spt-BR!2sbr" 
+width="400" height="250" frameborder ="0" style="border:0;"
+ allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"> </iframe>
+
+</div>
+</div>
+
+<hr>
+
+<footer>
+    <div class="container">
+    <a href="https://github.com/Reborsolli" target = "_blank">
+    <img class="tm-social p-30" src="assets/img/github.png" alt="github">  </a> 
+    <a href="https://www.instagram.com/reborsolli/" target = "_blank"> 
+    <img class="tm-social p-30" src="assets/img/instagram.png" alt="Instagram"> </a>  
+    <a href="https://www.linkedin.com/in/renata-borsolli-56162910b/" target = "_blank"> 
+    <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Linkedin">    </a>  
+</div>
+
+<p class="center">
+     Todos os direitos reservado para   Renata Ferreira &copy;
+     </p>
+  </footer>    
+<script src="assets/js/script.js">
+
+</script>
+</body>
+</html>
